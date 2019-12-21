@@ -13,7 +13,7 @@
     "mocha": "^6.2.2"
   },
   "scripts": {
-    "setup": "rm -rf .git;npm install;npm test"
+    "setup": "rm -rf .git;npm install;npm test",
     "test": "mocha ./*.spec.js -w --require @babel/register"
   },
   "author": "",
