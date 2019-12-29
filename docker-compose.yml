@@ -1,0 +1,13 @@
+version: '3.4'
+
+networks:
+  local:
+
+services:
+  tests:
+    image: node:latest
+    working_dir: /app
+    volumes:
+      - $PWD:/app
+    networks:
+      local:
