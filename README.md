@@ -15,7 +15,7 @@ One way to get started,
 
 ```
 git clone git@github.com:aedenj/javascript-kata-starter.git ~/projects/katas/hard-problem
-cd ~/projects/katas/hard-problem;docker-compose run tests sh-c "npm run setup"
+cd ~/projects/katas/hard-problem;docker-compose run tests sh -c "npm run setup"
 ```
 
 The `npm run setup` command with remove the git directory, run npm install and start the tests
