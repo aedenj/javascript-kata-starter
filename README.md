@@ -18,7 +18,7 @@ git clone git@github.com:aedenj/javascript-kata-starter.git ~/projects/katas/har
 cd ~/projects/katas/hard-problem;docker-compose run tests sh -c "npm run setup"
 ```
 
-The `npm run setup` command with remove the git directory, run npm install and start the tests
+The `npm run setup` command will remove the git directory, run npm install and start the tests
 
 From there follow the usual TDD process of red, green and refactor.
 
