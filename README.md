@@ -1,6 +1,6 @@
 ## Javascript Kata Starter
 
-A starting point for a kata in Javascript
+A starting point for a kata in Javascript.
 
 ### Prerequisites
 
@@ -18,11 +18,9 @@ git clone git@github.com:aedenj/javascript-kata-starter.git ~/projects/katas/har
 cd ~/projects/katas/hard-problem;docker-compose run tests sh -c "npm run setup"
 ```
 
-The `npm run setup` command will remove the git directory, run npm install and start the tests
+The `npm run setup` command will remove the git directory, run npm install and start the tests. From there follow the usual TDD process of red, green and refactor.
 
-From there follow the usual TDD process of red, green and refactor.
-
-If you stop the container for some reason and what to restart the tests only run,
+If you stop the container for some reason and want to only restart the tests,
 
 ```
 docker-compose run tests sh -c "npm test"
