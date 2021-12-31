@@ -2,7 +2,13 @@ import { expect } from "chai"
 
 
 describe("test", () => {
-  it("true is true", () => {
-    expect(true).to.equal(true)
+  const scenarios = [
+    { input: true, expected: true }
+  ];
+
+  scenarios.forEach(scenario => {
+    it("true is true", () => {
+      expect(scenario.input).to.equal(scenario.expected)
+    })
   })
 })
