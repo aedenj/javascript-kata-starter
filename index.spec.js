@@ -8,7 +8,7 @@ describe("test", () => {
 
   scenarios.forEach(scenario => {
     it("true is true", () => {
-      expect(scenario.input).to.equal(scenario.expected)
+      expect(kata(scenario.input)).to.equal(scenario.expected)
     })
   })
 })

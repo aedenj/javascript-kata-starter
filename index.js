@@ -1,3 +1,3 @@
-export function kata() {
-
+export function kata(args) {
+  return args
 }
