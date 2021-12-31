@@ -1,6 +1,6 @@
 ## Javascript Kata Starter
 
-A starting point for a kata in Javascript.
+A starting point for a kata in Javascript for those using an editor like Vim and iTerm as their "IDE" with nothing more than Docker to run our tests.
 
 ### Prerequisites
 
