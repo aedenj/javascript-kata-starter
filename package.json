@@ -10,7 +10,7 @@
     "@babel/preset-env": "^7.6.3",
     "@babel/register": "^7.6.2",
     "chai": "^4.2.0",
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.3"
   },
   "scripts": {
     "setup": "rm -rf .git;npm install;npm test",
